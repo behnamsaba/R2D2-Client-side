@@ -1,6 +1,8 @@
 # About the project
 
 R2D2 prototype for client-side.
+- Click [here](https://r2d2-prototype.onrender.com/) to explore the live project. (deployed on render.com)
+- Click [here](https://github.com/behnamsaba/R2D2-backend) to access backend side.
 
 ## Overview
 
