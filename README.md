@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# About the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+R2D2 prototype for client-side.
+- Click [here](https://r2d2-prototype.onrender.com/) to explore the live project. (deployed on render.com)
+- Click [here](https://github.com/behnamsaba/R2D2-backend) to access backend side.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The R2D2 client-side prototype utilizes React and React Router for client-side rendering. The app interacts with a Flask backend that communicates with the OpenAI API using Langchain. R2D2 employs Tailwind CSS for its UI and Redux Toolkit to store market research data in the store. Similar to a Google Chrome extension, R2D2 has the ability to personalize emails and offers CRM features along with marketing features. It's important to note that this project only covers a small portion of the actual R2D2 Google extension.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
+2. Create a new directory for your project and navigate into it using the command line.
+3. Create a new file called `package.json` in the project directory and copy the provided dependencies and scripts into it. Save the file.
+4. Open the command line and navigate to your project directory.
+5. Run the following command to install the required dependencies:
+6. After the installation is complete, you can start the client-side by running the following command:
+7. The client-side of your application will start at `localhost:3000` in your web browser.
+Make sure you have the Flask backend and OpenAI API set up and running properly for full functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Dependencies
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **@reduxjs/toolkit**: A package for efficient Redux development.
+- **@testing-library/jest-dom**: Custom Jest matchers for easier DOM testing.
+- **@testing-library/react**: Testing utilities for React components.
+- **@testing-library/user-event**: Simulates user events for testing React components.
+- **axios**: Promise-based HTTP client for making API requests.
+- **formik**: Form library for handling form validation, errors, and submission.
+- **react**: JavaScript library for building user interfaces.
+- **react-dom**: Provides DOM-specific methods for React.
+- **react-redux**: Official Redux bindings for React to manage application state.
+- **react-router-dom**: Routing library for React applications.
+- **react-scripts**: Configurations and scripts for Create React App.
+- **tailwindcss**: Utility-first CSS framework for rapid UI development.
+- **web-vitals**: Library for measuring and reporting web performance metrics.
+- **yup**: Schema validation library for form input validation.

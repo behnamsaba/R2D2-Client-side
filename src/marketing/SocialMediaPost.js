@@ -22,7 +22,7 @@ const SocialMediaPost = () => {
         setLoading(true);
         setDisabled(true);
         let res = await InvolveApi.getMarketing(values);
-        formik.setFieldValue("answer", res);
+        formik.setFieldValue("answer", res.text);
       } catch (e) {
         console.log(e);
       } finally {

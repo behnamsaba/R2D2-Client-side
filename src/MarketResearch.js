@@ -81,11 +81,11 @@ const MarketResearch = () => {
               Major competitors:
             </h1>
             <h3 className='text-lg text-gray-600'>
-              {s.data[s.data.length - 1].competitors}
+              {s.data[s.data.length - 1].competitors.text}
             </h3>
             <h1 className='text-xl font-bold text-gray-700'>Analyze</h1>
             <p className='text-lg text-gray-600'>
-              {s.data[s.data.length - 1].analyze}
+              {s.data[s.data.length - 1].analyze.text}
             </p>
             <h1 className='text-3lg font-bold mb-4'>History</h1>
             <ul className='space-y-4'>

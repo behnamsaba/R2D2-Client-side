@@ -22,7 +22,7 @@ const WelcomeNew = () => {
         setDisabled(true); // Set disabled state to true when submitting
 
         let res = await InvolveApi.getCRM(values);
-        formik.setFieldValue("answer", res);
+        formik.setFieldValue("answer", res.text);
       } catch (e) {
         console.log(e);
       } finally {

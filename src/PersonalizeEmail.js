@@ -19,7 +19,8 @@ const PersonalizeEmail = () => {
         setDisabled(true); // Set disabled state to true when submitting
 
         let res = await InvolveApi.getPersonalizeEmail(values);
-        formik.setFieldValue("prompt", res);
+        console.log("res",res)
+        formik.setFieldValue("prompt", res.text);
       } catch (e) {
         console.log(e);
       } finally {
